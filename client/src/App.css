@@ -1,3 +1,8 @@
+
+body{
+ background-color: beige;
+}
+
 .flex-center-column {
   display: flex;
   flex-direction: column;
@@ -7,3 +12,29 @@
 .flex-center-column *{
   margin-bottom:10px;
 }
+
+input {
+  border: 1px solid chocolate;
+  border-radius: 10px;
+  width: 153%;
+}
+
+label{
+  color:chocolate;
+  margin:0;
+}
+
+button{
+  background-color: chocolate;
+  color:beige;
+  border-radius: 10px;
+  border:none;
+  padding: 3px 5px;
+}
+
+h2 {
+  color: green;
+}
+
+
+
